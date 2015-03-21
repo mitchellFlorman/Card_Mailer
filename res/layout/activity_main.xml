@@ -1,0 +1,147 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+
+
+<ScrollView 
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+<LinearLayout
+    android:id="@+id/thingynoworky"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+     <LinearLayout
+     	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     	        
+    	<TextView
+	        android:id="@+id/toLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="To:" />
+
+    	<EditText
+	        android:id="@+id/editText_ToName"
+	        android:hint="Type Recipient Name Here"
+	        android:inputType="textPersonName"
+	        android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:ems="10" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+        	android:id="@+id/fromLabel"
+        	android:text="From:" />
+
+    	<EditText
+    	    android:id="@+id/editText_FromName"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Type Your Name Here"
+    	    android:inputType="textPersonName" />
+
+ 	</LinearLayout>
+    	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:id="@+id/forShort"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Title:" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForShort"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Type Your Greeting Here"
+    	    android:inputType="text" />
+
+ 	</LinearLayout>
+    	
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+     
+        <TextView
+            android:id="@+id/forLong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:text="Text:" />
+
+    	<EditText
+    	    android:id="@+id/editText_ForLong"
+    	    android:layout_width="0dp"
+    	    android:layout_height="wrap_content"
+    	    android:layout_weight="0.85"
+    	    android:ems="10"
+    	    android:hint="Type Additional Text Here"
+    	    android:inputType="text" />
+
+ 	</LinearLayout>    
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+ 	</LinearLayout>
+    
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:src="@drawable/certtemplate" />
+
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    
+		<Button
+		    android:id="@+id/button1"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="0.5"
+		    android:text="Send Holiday Greetings!" />
+        
+	</LinearLayout>    
+        
+</LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
